@@ -1,0 +1,25 @@
+.btn{
+    display:none;
+}
+
+@media (max-width: 500px) {
+.btn{
+    display:block;
+    background-image: linear-gradient(to right, #4946ee 0%, #ed310b 100%);
+    font-size: 15px;
+    color:white;
+    margin-left: 30px;
+    padding:6px;
+    border:none;
+    border-radius: 5px;
+    font-family: "Manrope", sans-serif;
+
+&:hover{
+ background-image: linear-gradient(to right, #ec1d0a 0%,  #4946ee 100%);
+  font-size: 12px;
+}
+
+}
+
+
+}

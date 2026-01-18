@@ -1,0 +1,26 @@
+import logo from '../assets/logo.png';
+import { OrderPhoneCall } from '@/ui/PhoneCall/OrderPhoneCall';
+import styles from './Contacts.module.scss';
+import { PhoneCall } from 'lucide-react';
+
+
+
+export const Contacts = () =>{
+
+
+    return(
+           <div className={styles.busket}>
+            <div className={styles.container}>
+            <img src={logo} alt="сплав по реке Анграпа" width="120px"/>
+            <p className={styles.text}>Сплав_kld39</p>
+            <p className={styles.river}>Сплавы по реке Анграпа </p>
+            </div>
+
+<div className={styles.prime}>
+     <a className={styles.telephone} href="tel:+79097919104" title="Позвонить"><PhoneCall className={styles.phoneCall} />+79097919104</a>
+     <OrderPhoneCall />
+</div>
+           
+        </div>
+    )
+}

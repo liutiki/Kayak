@@ -1,0 +1,20 @@
+.splav{
+    display:none;
+}
+
+.logo{
+     display:none;
+     width:90px;
+}
+
+@media (max-width: 500px) {
+      .splav{
+    display:block;
+    font-family: "Lobster", sans-serif;
+ }
+
+.logo{
+     display:block;
+     width:20px;
+} 
+}

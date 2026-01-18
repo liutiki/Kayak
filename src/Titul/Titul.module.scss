@@ -1,0 +1,56 @@
+
+.container {
+    position: relative; // Делаем родительский контейнер относительным
+}
+
+.imageContainer {
+    position: relative; // Делаем контейнер с изображением относительным
+}
+
+.kayak {
+    width: 100%; // Убедитесь, что изображение занимает всю ширину контейнера
+    height: auto; // Сохраняем пропорции изображения
+}
+
+.textOverlay {
+    position: absolute; // Делаем текст абсолютным
+    top: 20%; // Центрируем по вертикали
+    left: 40%; // Центрируем по горизонтали
+    transform: translate(-30%, -40%); // Сдвигаем текст на половину его ширины и высоты для центрирования
+    color: white; // Цвет текста, можно изменить на любой другой
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.982); // Добавляем тень для лучшей читаемости текста
+    text-align: center; // Центрируем текст
+    font-size: 80px;
+    font-family: "Manrope", sans-serif;
+}
+
+
+@media (max-width: 500px) {
+   
+
+.kayak{
+   width:100%;
+border-radius:10%;
+
+}
+
+ .container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textOverlay {
+    top: 25%; // Центрируем по вертикали
+    left: 30%; // Центрируем по горизонтали
+    transform: translate(-20%, -30%); // Сдвигаем текст на половину его ширины и высоты для центрирования
+    font-size: 32px;
+     line-height: 1.2; // Устанавливаем межстрочный интервал для лучшего восприятия
+        margin: 0; // Убираем отступы
+        display: flex;
+        flex-direction: column; // Устанавливаем направление flex-элементов в столбик
+        align-items: center; // Центрируем текст по горизонтали
+}
+
+}

@@ -1,0 +1,56 @@
+   .busket{
+     display:flex;
+    flex-direction: row;
+    align-items: center;
+
+   }
+
+.container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   }
+
+.phoneCall{
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+ .telephone{
+     font-family: "Manrope", sans-serif;
+     text-decoration: none;
+     font-size: 25px;
+     color:rgb(245, 112, 75);
+     font-weight: 500;
+ }
+
+
+.river{
+     font-family: "Manrope", sans-serif;
+     font-size: 21px;
+     
+}
+
+.prime{
+    margin-left: 20%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ .text{
+    font-family: "Lobster", sans-serif;
+    font-size: 25px;
+    margin-right: 50px;
+ }
+
+
+@media (max-width: 500px) {
+       .busket{
+     display:none;
+    flex-direction: row;
+    align-items: center;
+
+   }
+}
