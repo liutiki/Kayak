@@ -1,0 +1,42 @@
+.piccontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ margin:5%;
+ flex-wrap: wrap;
+}
+
+.picture{
+
+    width:350px;
+    border-radius: 20px;
+}
+
+.textStyle{
+        font-family: "Manrope", sans-serif;
+        font-size: 23px;
+      font-weight: 300;
+}
+
+.container{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.check{
+    margin-right: 2%;
+    color:rgb(147, 234, 9);
+}
+
+.textHow{
+      font-family: "Manrope", sans-serif;
+    margin-bottom: 2%;
+    font-weight: 200;
+}
+
+.banya{
+    width:500px;
+    border-radius: 10px;
+}
+
