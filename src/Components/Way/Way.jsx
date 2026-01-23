@@ -1,6 +1,6 @@
 import styles from './Way.module.scss';
 import kayakTwo from '@/assets/kayakTwo.png';
-import kayakThree from '@/assets/kayakThree.png';
+import kayakThree from '@/assets/KayakThree.png';
 import kayakFour from '@/assets/kayakFour.png';
 import soup from '@/assets/supper.JPG';
 import banya from '@/assets/banya.JPG';
