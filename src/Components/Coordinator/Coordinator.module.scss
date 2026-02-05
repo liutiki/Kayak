@@ -1,0 +1,65 @@
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.org{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.all{
+    display:flex;
+    justify-content: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 27px;
+    color: red;
+    font-weight: 400;
+}
+
+.textorg{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.orgphoto{
+    width:800px;
+}
+
+.orgbtn{
+    font-family: "Manrope", sans-serif;
+    background-color:rgb(234, 150, 217);
+    color:rgb(36, 7, 27);
+    font-size: 19px;
+    border:none;
+   padding:20px;
+   border-radius: 10px;
+font-weight: 500;
+
+&:hover {
+        background-color: rgb(162, 9, 239);
+         color:rgb(249, 244, 247);
+    }
+}
+
+.text{
+ font-family: "Manrope", sans-serif;
+font-size: 25px;
+font-weight: 100;
+}
+
+
+@media (max-width: 500px) {
+
+}
+
+
+
+
+

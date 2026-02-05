@@ -1,0 +1,32 @@
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background-color: #f0f0f0; /* Цвет фона */
+}
+
+.marqueeContent {
+    display: inline-block;
+    animation: marquee 30s linear infinite; /* Длительность и тип анимации */
+}
+
+.review {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px; /* Отступ между отзывами */
+}
+
+.review img {
+    width: 50px; /* Ширина изображения */
+    height: 50px; /* Высота изображения */
+    margin-right: 10px; /* Отступ между изображением и текстом */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%); /* Начальное положение */
+    }
+    100% {
+        transform: translateX(-100%); /* Конечное положение */
+    }
+}

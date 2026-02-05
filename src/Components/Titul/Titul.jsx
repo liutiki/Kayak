@@ -35,7 +35,13 @@ const textRef = useRef(null);
                 alt="Сплавы по реке Калининград" 
                 onLoad={handleImageLoad} />
                 <div className={styles.textOverlay}>
-                    <p ref={textRef}>Однодневный сплав по реке Анграпа</p>
+                
+                    <p  className={styles.splav} ref={textRef}>Cплавы на байдарках</p>
+                     <p className={styles.river} ref={textRef}>Анграпа.Преголь.Еще река</p>
+
+                    <div className={styles.bag}>
+                        <p>Протяженность маршрута</p>
+                    </div>
                 </div>
             </div>
         </div>

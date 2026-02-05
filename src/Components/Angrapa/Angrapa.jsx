@@ -18,7 +18,7 @@ export const Angrapa = () =>{
            что делает её идеальным местом для однодневных и многодневных сплавов.</h3>      
           </div>
 
-            <div>
+            <div className={styles.numbers}>
             <img src={more}  className={styles.more} />
             <img src={part} className={styles.more} />
             </div> 

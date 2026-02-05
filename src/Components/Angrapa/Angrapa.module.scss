@@ -49,10 +49,12 @@ width:95%;
 @media (max-width: 500px) {
 
     .text{
-width:90%;
+width:100%;
 margin-bottom: 2%;
 }
-
+.busket{
+ width:100%
+}
 
 .angrapa{
    
@@ -67,7 +69,7 @@ font-size: 17px;
 .container{
 text-align: center;
     flex-direction: column;
-    width:90%;
+    width:95%;
 }
 
 .back{
@@ -75,5 +77,15 @@ text-align: center;
 
 }
 
+.more{
+    width:150px;
+    margin-bottom:3% ;
+}
+
+.numbers{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
    }

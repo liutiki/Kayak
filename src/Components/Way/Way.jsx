@@ -2,11 +2,14 @@ import styles from './Way.module.scss';
 import kayakTwo from '@/assets/kayakTwo.png';
 import kayakThree from '@/assets/KayakThree.png';
 import kayakFour from '@/assets/kayakFour.png';
-import soup from '@/assets/supper.JPG';
-import banya from '@/assets/banya.JPG';
-import swim from '@/assets/swim.JPG';
-import chun from '@/assets/chun.JPG';
+import soup from '@/assets/supper.jpg';
+import banya from '@/assets/banya.jpg';
+import swim from '@/assets/swim.jpg';
+import chun from '@/assets/chun.jpg';
+import plov from '@/assets/Plov.jpg';
 import { SquareCheckBig } from 'lucide-react';
+
+
 
 
 export const Way = () =>{
@@ -48,15 +51,24 @@ export const Way = () =>{
     <p className={styles.textStyle}>
     <SquareCheckBig className={styles.check}/>В этот период также можно загорать, купаться в реке, играть в волейбол или более спокойные игры, в зависимости от интересов собравшейся компании, погулять;
 </p>
+
+<p className={styles.textStyle}>
+    <SquareCheckBig className={styles.check}/>Завершается программа подачей ужина, приготовленного на костре;
+    <button>Что взять с собой</button>
+</p>
+
 </div>
 
 
 <div className={styles.piccontainer} >
-<img src={soup} className={styles.picture} alt="Сплав по реке Анграпа Калининград" />   
+<img src={soup} className={styles.picture} alt="Сплав по реке Анграпа Калининград" /> 
+<img src={plov} className={styles.picture} alt="Сплав по реке Анграпа Калининград" />  
 <img src={banya} className={styles.banya} alt="Сплав по реке Анграпа Калининград" />   
 <img src={swim} className={styles.picture} alt="Сплав по реке Анграпа Калининград" /> 
 <img src={chun} className={styles.picture} alt="Сплав по реке Анграпа Калининград" /> 
 </div>
+
+
 
 
           </div>

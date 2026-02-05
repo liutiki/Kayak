@@ -5,6 +5,17 @@ import { Contacts } from "./Components/Contacts/Contacts";
 import { ContactsMobile } from "./Components/ContactsMobile/ContactsMobile";
 import { Angrapa } from "./Components/Angrapa/Angrapa";
 import { Way } from "./Components/Way/Way";
+import {Footer} from "./Footer/Footer";
+import { Cost } from "./Components/Cost/Cost";
+import { Coordinator } from "./Components/Coordinator/Coordinator";
+import { Testimonials } from "./Components/Testimonials/Testimonials";
+
+
+
+
+
+
+
 
 export const App = ()=>{
 
@@ -17,6 +28,11 @@ export const App = ()=>{
     <Titul />
     <Angrapa />
     <Way/>
+    <Cost />
+    <Coordinator />
+    <Testimonials />
+<Footer />
+
     </div>
   )
 }
