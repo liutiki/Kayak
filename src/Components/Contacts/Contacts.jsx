@@ -1,5 +1,5 @@
 import { OrderPhoneCall } from '@/ui/PhoneCall/OrderPhoneCall';
-import logo from '@/assets/logo.jpg';
+import logo from '@/assets/logo.jpg'
 
 import styles from './Contacts.module.scss';
 import { PhoneCall } from 'lucide-react';
