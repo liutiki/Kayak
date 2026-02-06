@@ -41,6 +41,19 @@
 
 
 @media (max-width: 500px) {
+
+    .splav{
+   
+    font-size: 17px;
+   
+}
+
+.river{
+   
+    font-size: 20px;
+    
+}
+
    
 
 .kayak{
@@ -60,7 +73,7 @@ border-radius:10%;
     top: 25%; // Центрируем по вертикали
     left: 30%; // Центрируем по горизонтали
     transform: translate(-20%, -30%); // Сдвигаем текст на половину его ширины и высоты для центрирования
-    font-size: 32px;
+    font-size: 17px;
      line-height: 1.2; // Устанавливаем межстрочный интервал для лучшего восприятия
         margin: 0; // Убираем отступы
         display: flex;

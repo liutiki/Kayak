@@ -4,8 +4,8 @@ import styles from './Coordinator.module.scss';
 export const Coordinator =() =>{
     return (
         <>
-        <div className={styles.all}>
-           <p>Вы можете задать все вопросы по сплаву организатору </p>  
+        <div className={styles.containerall}>
+           <p className={styles.all}>Вы можете задать все вопросы по сплаву организатору </p>  
         </div>
        
 

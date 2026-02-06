@@ -9,6 +9,7 @@ import {Footer} from "./Footer/Footer";
 import { Cost } from "./Components/Cost/Cost";
 import { Coordinator } from "./Components/Coordinator/Coordinator";
 import { Testimonials } from "./Components/Testimonials/Testimonials";
+import { CostOneDay } from "./CostOneday/CostOneDay";
 
 
 
@@ -28,10 +29,13 @@ export const App = ()=>{
     <Titul />
     <Angrapa />
     <Way/>
+
+    <CostOneDay />
+   
     <Cost />
     <Coordinator />
     <Testimonials />
-<Footer />
+    <Footer />
 
     </div>
   )
