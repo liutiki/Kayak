@@ -13,7 +13,7 @@ export const Contacts = () =>{
            <div className={styles.busket}>
             <div className={styles.container}>
             <img src={logo} alt="сплав по реке Анграпа" width="170px"/>
-            <p className={styles.text}>Сплав_kld39</p>
+            <p className={styles.text}>Сплав_Калининград39</p>
             <p className={styles.river}>Сплавы по рекам Калининграда. </p>
             </div>
 

@@ -2,6 +2,9 @@ import React, { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import kayak from '@/assets/kayak.jpg';
 import styles from './Titul.module.scss';
+import { Clock } from 'lucide-react';
+import { MapPinPlus } from 'lucide-react';
+import { Utensils } from 'lucide-react';
 
 export const Titul = () =>{
 const textRef = useRef(null);
@@ -37,10 +40,29 @@ const textRef = useRef(null);
                 <div className={styles.textOverlay}>
                 
                     <p  className={styles.splav} ref={textRef}>Cплавы на байдарках</p>
-                     <p className={styles.river} ref={textRef}>Анграпа.Преголь.Еще река</p>
+                    <p className={styles.river} ref={textRef}></p>
 
                     <div className={styles.bag}>
-                        <p>Протяженность маршрута</p>
+
+                       <ul className={styles.box}>
+                       <Clock className={styles.icon}/>
+                       <li className={styles.textTop}>Продолжительность</li>
+                       <li className={styles.textBox}>1 день</li>
+                       </ul>
+
+                       <ul className={styles.box}>
+                            <MapPinPlus className={styles.icon} />
+                       <li className={styles.textTop}>Протяженность пути</li>
+                       <li className={styles.textBox}>12 км (2-3 часа)</li>
+                       </ul>
+                       
+                       <ul className={styles.box}>
+                            <Utensils className={styles.icon} />
+                       <li className={styles.textTop}>Обед+Ужин</li>
+                       <li className={styles.textBox}>На костре</li>
+                       </ul>
+
+
                     </div>
                 </div>
             </div>

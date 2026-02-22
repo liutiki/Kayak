@@ -1,42 +1,21 @@
-import { NavbarTop } from "./Navbar/NavbarTop";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { TakeWith } from "./Pages/TakeWith/TakeWith";
+import { Home } from "./Pages/HomePage/Home";
+import { Birthday } from "./Pages/Birthday/Birthday";
+import { TwoDayKayak } from "./Pages/TwoDayKayak/TwoDayKayak";
+import { Corporate } from "./Pages/Corporate/Corporate";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Titul } from "./Components/Titul/Titul";
-import { Contacts } from "./Components/Contacts/Contacts";
-import { ContactsMobile } from "./Components/ContactsMobile/ContactsMobile";
-import { Angrapa } from "./Components/Angrapa/Angrapa";
-import { Way } from "./Components/Way/Way";
-import {Footer} from "./Footer/Footer";
-import { Cost } from "./Components/Cost/Cost";
-import { Coordinator } from "./Components/Coordinator/Coordinator";
-import { Testimonials } from "./Components/Testimonials/Testimonials";
-import { CostOneDay } from "./CostOneday/CostOneDay";
 
-
-
-
-
-
-
-
-export const App = ()=>{
-
-
+export const App = () => {
   return (
-    <div>
-    <ContactsMobile /> 
-    <Contacts />
-    <NavbarTop />
-    <Titul />
-    <Angrapa />
-    <Way/>
-
-    <CostOneDay />
-   
-    <Cost />
-    <Coordinator />
-    <Testimonials />
-    <Footer />
-
-    </div>
-  )
-}
+    <Router>
+          <Routes>
+          <Route path="/" element={<Home />} /> 
+          <Route path="/TakeWith" element={<TakeWith />} /> 
+           <Route path="/birthday" element={<Birthday />} /> 
+           <Route path="/two-days" element={<TwoDayKayak />} />
+           <Route path="/corporate" element={<Corporate />} />
+        </Routes>
+    </Router>
+  );
+};

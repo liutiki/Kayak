@@ -1,0 +1,97 @@
+.kayak{
+    width:100%;
+    height:50vh;
+}
+
+.cat{
+    width:500px;
+    border-radius: 40px;
+ }
+
+.container{
+    margin-top: 10%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+
+.textTop{
+    font-weight: 600;
+    font-size: 25px;
+    list-style: none;
+    color:grey;
+}
+
+.text{
+    font-size: 27px;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+.btnMain{
+    border:1px solif rgba(210, 207, 207, 0.53);
+    border-radius: 20px;
+    width:200px;
+    background-color: transparent;
+    color:grey;
+    font-size: 21px;
+    font-family: "Manrope", sans-serif;
+    cursor: pointer;
+
+    &:hover{
+color:rgb(80, 78, 78);
+    }
+  }
+.btnposition{
+text-align: center;
+}
+
+.list{
+    margin-left: 70px;
+}
+
+@media (max-width: 500px) {
+
+    .kayak{
+   display:none;
+}
+
+.cat{
+    width:100%;
+ }
+
+.container{
+    margin-top: 5%;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+
+.textTop{
+    font-size: 25px;
+    }
+
+.text{
+    font-size: 17px;
+    line-height: 40px;
+   }
+
+.btnMain{
+    margin-top: 2%;
+    border:1px solif rgba(210, 207, 207, 0.53);
+    border-radius: 20px;
+    width:250px;
+    font-size: 16px;
+  }
+
+
+.list{
+    margin-left: 1px;
+}
+
+
+
+}

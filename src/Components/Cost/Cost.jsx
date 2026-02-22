@@ -1,15 +1,17 @@
 import { CostData } from "./CostData";
 import styles from './Cost.module.scss';
+import { useNavigate } from "react-router-dom";
 
-    const handleButtonClick = (item) => {
-    // Здесь вы можете обработать событие нажатия на кнопку
-    // Например, показать дополнительную информацию о товаре
-    alert(`Вы нажали на кнопку "Подробнее" для ${item.name}`);
-};
+   
 
 
 export const Cost =() =>{
-
+    
+ const navigate = useNavigate(); 
+    
+    const handleButtonClick = (item) => {
+        navigate(item.path); 
+    };
 
     return (
 
@@ -31,8 +33,8 @@ export const Cost =() =>{
                              <p className={styles.serviceOne}>{serviceOne}</p>
                               <p className={styles.serviceTwo}>{serviceTwo}</p>
                             <button className={styles.button} onClick={() => handleButtonClick(item)}>
-                                {button}
-                            </button>
+                                    {button}
+                                </button>
                         </div>
                     </article>
                 );

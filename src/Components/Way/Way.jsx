@@ -7,8 +7,9 @@ import banya from '@/assets/banya.jpg';
 import swim from '@/assets/swim.jpg';
 import chun from '@/assets/chun.jpg';
 import plov from '@/assets/Plov.jpg';
+ import { Link } from 'react-router-dom';
 import { SquareCheckBig } from 'lucide-react';
-
+import { BadgeQuestionMark } from 'lucide-react';
 
 
 
@@ -54,23 +55,26 @@ export const Way = () =>{
 
 <p className={styles.textStyle}>
     <SquareCheckBig className={styles.check}/>Завершается программа подачей ужина, приготовленного на костре;
-    <button>Что взять с собой</button>
+
+ <Link to="/TakeWith">
+        <button className={styles.btnTake}>  <BadgeQuestionMark className={styles.icon}/>Что взять с собой</button>
+ </Link>    
 </p>
+
+   
 
 </div>
 
 
 <div className={styles.piccontainer} >
-<img src={soup} className={styles.picture} alt="Сплав по реке Анграпа Калининград" /> 
+
 <img src={plov} className={styles.picture} alt="Сплав по реке Анграпа Калининград" />  
 <img src={banya} className={styles.banya} alt="Сплав по реке Анграпа Калининград" />   
 <img src={swim} className={styles.picture} alt="Сплав по реке Анграпа Калининград" /> 
-<img src={chun} className={styles.picture} alt="Сплав по реке Анграпа Калининград" /> 
+
 </div>
 
 
-
-
-          </div>
+             </div>
     )
 }

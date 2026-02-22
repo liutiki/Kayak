@@ -2,12 +2,12 @@
     overflow: hidden;
     white-space: nowrap;
     box-sizing: border-box;
-    background-color: #f0f0f0; /* Цвет фона */
+  background-color: rgba(244, 194, 244, 0.451);
 }
 
 .marqueeContent {
     display: inline-block;
-    animation: marquee 30s linear infinite; /* Длительность и тип анимации */
+    animation: marquee 110s linear infinite; /* Длительность и тип анимации */
 }
 
 .review {
@@ -17,16 +17,28 @@
 }
 
 .review img {
-    width: 50px; /* Ширина изображения */
-    height: 50px; /* Высота изображения */
+    width: 380px; /* Ширина изображения */
+  
     margin-right: 10px; /* Отступ между изображением и текстом */
+}
+
+.bag{
+    display:flex;
+    justify-content: center;
+}
+
+.answer{
+        font-family: "Manrope", sans-serif;
+        font-size: 65px;
+        color:rgb(235, 87, 117);
+        font-weight: 200;
 }
 
 @keyframes marquee {
     0% {
-        transform: translateX(100%); /* Начальное положение */
+        transform: translateX(0); /* Начальное положение */
     }
     100% {
-        transform: translateX(-100%); /* Конечное положение */
+        transform: translateX(-50%); /* Конечное положение */
     }
 }

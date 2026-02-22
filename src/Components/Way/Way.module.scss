@@ -40,7 +40,38 @@
     border-radius: 10px;
 }
 
+.btnTake{
+    color:white;
+    background-color: rgba(233, 96, 65, 0.912);
+    font-size: 21px;
+    font-weight: 500;
+    padding:17px;
+    border:none;
+    border-radius: 20px;
+    width:300px;
+    margin-left: 30px;
+
+    &:hover{
+         background-color: rgb(232, 47, 6);
+    }
+}
+
+.icon{
+     font-size: 60px;
+     margin-right: 10px;
+}
+
 @media (max-width: 500px) {
+
+    .btnTake{
+    font-size: 14px;
+    font-weight: 500;
+    padding:7px;
+    border:none;
+    border-radius: 20px;
+    width:210px;
+    margin-left: 10px;
+}
 
 .picture{
     width:60%;

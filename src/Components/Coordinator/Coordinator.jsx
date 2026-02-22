@@ -1,6 +1,10 @@
 import orgphoto from '@/assets/orgphoto.jpg';
 import styles from './Coordinator.module.scss';
 
+ const handleButtonClick = () => {
+        window.open('https://t.me/svetlana_k_94', '_blank'); 
+    };
+
 export const Coordinator =() =>{
     return (
         <>
@@ -18,13 +22,17 @@ export const Coordinator =() =>{
         
         
       <div className={styles.textorg} >
-        <p className={styles.text}>Меня зовут Светлана, и я организую сплавы с 2023 года. Моей главной целью является создание безопасного
-             и увлекательного опыта для всех участников. Я тщательно подбираю маршруты, 
+        <p className={styles.text}>Меня зовут Светлана, и я организую сплавы с 2023 года. 
+            Моей главной целью является создание безопасного
+            и увлекательного опыта для всех участников. Я тщательно подбираю маршруты, 
             учитывая уровень подготовки и интересы группы, чтобы каждый мог насладиться красотой
-             природы и получить заряд положительных эмоций.</p>
-             <div>
-            <button className={styles.orgbtn}>Написать организатору</button>
-             </div>
+            природы и получить заряд положительных эмоций.</p>
+            <div>
+
+        <button className={styles.orgbtn} onClick={handleButtonClick}>
+        Написать организатору
+        </button>
+        </div>
       </div>
      </div>
 

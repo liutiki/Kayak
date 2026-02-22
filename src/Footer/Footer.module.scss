@@ -45,10 +45,113 @@
          font-family: "Manrope", sans-serif;
 }
 
+.bag{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+         font-size: 17px;
+}
+
+.write{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tele{
+    width:80px;
+
+    &:hover{
+        width:83px;
+    }
+}
+
+
+
+
+.photoorg{
+    width:280px;
+}
+
+
+.orgsveta{
+    font-size: 31px;
+    font-family: "Manrope", sans-serif;
+list-style: none;
+}
+
+.splav{
+    font-size: 21px;
+    color:grey;
+     font-family: "Manrope", sans-serif;
+     list-style: none;
+}
+
 @media (max-width: 500px) {
 
+.style{
+   width: '100%';
+   border: '1px solid black' ;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bag{
+    display:flex;
+    flex-direction: column;
+}
+
+.icon{
+
+ width: 17px; 
+ height: 17px;
+}
+
+.pencil{
+
+ width: 17px; 
+ height: 17px;
+}
+
+.nounderline{
+  font-size: 14px;
+ 
+}
+
+.ring{
+    font-size: 15px;
+ 
+}
+
+.mail{
+      font-size: 15px;
+
+}
+
+.bag{
+    font-size: 15px;
+}
+
+.photoorg{
+    width:80px;
+}
 
 
+.orgsveta{
+    font-size: 25px;
+}
 
+.splav{
+    font-size: 15px;
+   }
 
 }
