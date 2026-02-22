@@ -11,7 +11,7 @@ export const Contacts = () =>{
     return(
            <div className={styles.busket}>
             <div className={styles.container}>
-            <img src={log} alt="сплав по реке Анграпа" width="173px"/>
+            <img src={log} alt="сплав по реке Анграпа" width="170px"/>
             <p className={styles.text}>Сплав_Калининград39</p>
             <p className={styles.river}>Сплавы по рекам Калининграда. </p>
             </div>

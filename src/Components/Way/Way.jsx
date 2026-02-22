@@ -2,12 +2,10 @@ import styles from './Way.module.scss';
 import kayakTwo from '@/assets/kayakTwo.png';
 import kayakThree from '@/assets/KayakThree.png';
 import kayakFour from '@/assets/kayakFour.png';
-import soup from '@/assets/supper.jpg';
 import banya from '@/assets/banya.jpg';
 import swim from '@/assets/swim.jpg';
-import chun from '@/assets/chun.jpg';
 import plov from '@/assets/Plov.jpg';
- import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { SquareCheckBig } from 'lucide-react';
 import { BadgeQuestionMark } from 'lucide-react';
 
