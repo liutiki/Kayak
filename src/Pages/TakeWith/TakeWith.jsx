@@ -2,7 +2,7 @@ import { Contacts } from "@/Components/Contacts/Contacts";
 import { ContactsMobile } from "@/Components/ContactsMobile/ContactsMobile";
 import { Footer } from '@/Footer/Footer.jsx';
 import river from '@/assets/river.jpg';
-import styles from './TakeWith.module.scss';
+import styles from './Takewith.module.scss';
 import cat from '@/assets/cat.jpg';
 import { Link } from "react-router-dom";
 
