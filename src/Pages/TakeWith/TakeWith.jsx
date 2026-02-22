@@ -20,7 +20,7 @@ export const TakeWith =()=>{
         
 
 <div>
-    <img className={styles.kayak} src={river} alt="сплавы в калининграде" />
+    <img className={styles.kayak} src={river} alt="Cплавы в калининграде" />
 </div>
 
 <div className={styles.btnposition}>
@@ -33,7 +33,7 @@ export const TakeWith =()=>{
 
 <div className={styles.container}>
 <div>
-<img src={cat} className={styles.cat} alt="сплавы в калининграде" />
+<img src={cat} className={styles.cat} alt="Cплавы в калининграде" />
 </div>
 
 
