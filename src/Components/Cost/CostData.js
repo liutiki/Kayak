@@ -1,7 +1,19 @@
 import back from '@/assets/back.jpg';
+import girl from '@/assets/girl.jpg';
 
 export const CostData = [
 
+
+    {
+    image:back,
+    name: '3800 ',
+    description: 'Однодневный сплав ',  
+    service: 'Прокат трехместных байдарок',
+    serviceOne: 'Прокат трехместных байдарок',
+    serviceTwo: 'Прокат трехместных байдарок',
+    button: 'Подробнее',
+     path: '/two-days'
+},
 
 {
     image:back,
@@ -25,7 +37,7 @@ export const CostData = [
 },
 
 {
-    image:back,
+    image:girl,
     name: 'от 5000 ',
     description: 'Дни рождения', 
     serviceOne: 'Прокат трехместных байдарок',

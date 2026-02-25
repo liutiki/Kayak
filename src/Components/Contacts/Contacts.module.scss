@@ -13,14 +13,15 @@
    }
 
 .phoneCall{
-    font-size: 12px;
-    margin-right: 15px;
+   width:42px;
+   height:42px;
+    
 }
 
  .telephone{
      font-family: "Manrope", sans-serif;
      text-decoration: none;
-     font-size: 25px;
+     font-size: 22px;
      color:rgb(237, 55, 5);
      font-weight: 300;
  }
@@ -29,21 +30,49 @@
 .river{
      font-family: "Manrope", sans-serif;
      font-size: 21px;
-     
+     color:grey;
 }
 
 .prime{
-    margin-left: 20%;
+    margin-left: 1px;
     display:flex;
     flex-direction: row;
-    align-items: center;
+   
 }
+
+.media{
+display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 3%;
+}
+
+
 
  .text{
     font-family: "Lobster", sans-serif;
     font-size: 25px;
     margin-right: 50px;
+    
  }
+
+ .tele{
+    width:70px;
+
+    &:hover{
+        width:73px;
+    }
+}
+
+.insta{
+    width:60px;
+}
+
+.riveCont{
+    display:flex;
+    flex-direction: column;
+
+}
 
 
 @media (max-width: 500px) {

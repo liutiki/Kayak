@@ -33,7 +33,7 @@ const handleIconClick = () => {
                 <div className={styles.bag}>
                 <PhoneCall className={styles.icon} />
                 <p className={styles.ring}>Позвонить</p>
-                <a className={styles.nounderline} href="tel:+79097771712" aria-label="Позвонить сплав байдарки"> +79097771712</a>
+                <a className={styles.nounderline} href="tel:+79097919104" aria-label="Позвонить сплав байдарки"> +7-909-791-91-04</a>
                 </div>
                
              

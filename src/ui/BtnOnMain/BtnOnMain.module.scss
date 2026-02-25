@@ -1,0 +1,29 @@
+.btnMain{
+    border:1px solif rgba(210, 207, 207, 0.53);
+    border-radius: 20px;
+    width:200px;
+    background-color: transparent;
+    color:grey;
+    font-size: 21px;
+    font-family: "Manrope", sans-serif;
+    cursor: pointer;
+
+    &:hover{
+color:rgb(80, 78, 78);
+    }
+  }
+.btnposition{
+text-align: center;
+}
+
+@media (max-width: 500px) {
+
+.btnMain{
+    margin-top: 2%;
+    border:1px solif rgba(210, 207, 207, 0.53);
+    border-radius: 20px;
+    width:250px;
+    font-size: 16px;
+  }
+
+}

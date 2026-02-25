@@ -3,8 +3,8 @@ import { ContactsMobile } from "@/Components/ContactsMobile/ContactsMobile";
 import { Footer } from '@/Footer/Footer.jsx';
 import river from '@/assets/river.jpg';
 import styles from './Takewith.module.scss';
-import cat from '@/assets/cat.jpg';
-import { Link } from "react-router-dom";
+import boy from '@/assets/takeWith/boyPhoto.jpg';
+import { BtnOnMain } from "@/ui/BtnOnMain/BtnOnMain";
 
 
 
@@ -23,17 +23,12 @@ export const TakeWith =()=>{
     <img className={styles.kayak} src={river} alt="Cплавы в калининграде" />
 </div>
 
-<div className={styles.btnposition}>
- <Link to="/">
-        <button className={styles.btnMain} > На главную </button>
- </Link>  
-
-</div>
+<BtnOnMain />
 
 
 <div className={styles.container}>
 <div>
-<img src={cat} className={styles.cat} alt="Cплавы в калининграде" />
+<img src={boy} className={styles.cat} alt="Cплавы в калининграде" />
 </div>
 
 

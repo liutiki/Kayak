@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
-import kayak from '@/assets/kayak.jpg';
+import kayak from '@/assets/io.jpg';
 import styles from './Titul.module.scss';
 import { Clock } from 'lucide-react';
 import { MapPinPlus } from 'lucide-react';
@@ -17,16 +17,16 @@ const textRef = useRef(null);
 
     useEffect(() => {
         if (imageLoaded) {
-            // Запускаем анимацию через 1 секунду после загрузки изображения
+           
             const timer = setTimeout(() => {
                 gsap.fromTo(
                     textRef.current,
-                    { opacity: 0, }, // Начальные стили
-                    { opacity: 1, y: 0, duration: 1.4 } // Конечные стили
+                    { opacity: 0, }, 
+                    { opacity: 1, y: 0, duration: 1.4 } 
                 );
             }, 1000); // Задержка в 1 секунду
 
-            return () => clearTimeout(timer); // Очистка таймера при размонтировании компонента
+            return () => clearTimeout(timer); 
         }
     }, [imageLoaded]);
 
@@ -47,13 +47,13 @@ const textRef = useRef(null);
                        <ul className={styles.box}>
                        <Clock className={styles.icon}/>
                        <li className={styles.textTop}>Продолжительность</li>
-                       <li className={styles.textBox}>1 день</li>
+                       <li className={styles.textBox}>2-3 часа</li>
                        </ul>
 
                        <ul className={styles.box}>
                             <MapPinPlus className={styles.icon} />
                        <li className={styles.textTop}>Протяженность пути</li>
-                       <li className={styles.textBox}>12 км (2-3 часа)</li>
+                       <li className={styles.textBox}>12 км </li>
                        </ul>
                        
                        <ul className={styles.box}>

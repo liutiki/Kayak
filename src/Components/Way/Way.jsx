@@ -2,9 +2,9 @@ import styles from './Way.module.scss';
 import kayakTwo from '@/assets/kayakTwo.png';
 import kayakThree from '@/assets/KayakThree.png';
 import kayakFour from '@/assets/kayakFour.png';
-import banya from '@/assets/banya.jpg';
-import swim from '@/assets/swim.jpg';
-import plov from '@/assets/Plov.jpg';
+import rabbit from '@/assets/rabbit.jpg';
+import woman from '@/assets/woman.jpg';
+import house from '@/assets/houseBanya.jpg';
 import { Link } from 'react-router-dom';
 import { SquareCheckBig } from 'lucide-react';
 import { BadgeQuestionMark } from 'lucide-react';
@@ -66,9 +66,9 @@ export const Way = () =>{
 
 <div className={styles.piccontainer} >
 
-<img src={plov} className={styles.picture} alt="Сплав по реке Анграпа Калининград" />  
-<img src={banya} className={styles.banya} alt="Сплав по реке Анграпа Калининград" />   
-<img src={swim} className={styles.picture} alt="Сплав по реке Анграпа Калининград" /> 
+<img src={house} className={styles.picture} alt="Сплав по реке Анграпа Калининград" />  
+<img src={rabbit} className={styles.banya} alt="Сплав по реке Анграпа Калининград" />   
+<img src={woman} className={styles.picture} alt="Сплав по реке Анграпа Калининград" /> 
 
 </div>
 

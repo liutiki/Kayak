@@ -14,7 +14,7 @@
 
 .textOverlay {
     position: absolute; // Делаем текст абсолютным
-    top: 20%; // Центрируем по вертикали
+    top: 30%; // Центрируем по вертикали
     left: 35%; // Центрируем по горизонтали
     transform: translate(-30%, -30%); // Сдвигаем текст на половину его ширины и высоты для центрирования
    
@@ -23,15 +23,15 @@
 }
 
 .splav{
-    color: rgb(162, 247, 4); // Цвет текста, можно изменить на любой другой
+    color: white; 
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.982); // Добавляем тень для лучшей читаемости текста
-    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+  
     font-size: 90px;
     font-family: "Manrope", sans-serif;
     font-weight: 800;
-    background-color: rgba(248, 6, 50, 0.934);
+   
     margin-bottom: 14%;
-    border-radius: 20px;
+
 }
 
 .river{
@@ -74,9 +74,9 @@ width: 1000px;
 @media (max-width: 500px) {
 
     .splav{
-     background-color: rgba(248, 6, 50, 0.695);
+     background-color: rgba(214, 5, 43, 0.823);
       color: rgb(162, 247, 4); // Цвет текста, можно изменить на любой другой
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.982); // Добавляем тень для лучшей читаемости текста
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.486); // Добавляем тень для лучшей читаемости текста
     box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.5);
     font-size: 28px;
     width:300px;
