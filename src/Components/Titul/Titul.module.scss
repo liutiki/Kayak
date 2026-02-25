@@ -74,15 +74,12 @@ width: 1000px;
 @media (max-width: 500px) {
 
     .splav{
-     background-color: rgba(214, 5, 43, 0.823);
-      color: rgb(162, 247, 4); // Цвет текста, можно изменить на любой другой
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.486); // Добавляем тень для лучшей читаемости текста
-    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 7%;
+    color: white; // Цвет текста, можно изменить на любой другой
     font-size: 28px;
     width:300px;
-    font-weight: 400;
-
-    margin-bottom: 1%;
+    font-weight: 600;
+    margin-bottom: 5%;
 
 }
 
