@@ -40,7 +40,7 @@ const textRef = useRef(null);
                 <div className={styles.textOverlay}>
                 
                     <p  className={styles.splav} ref={textRef}>Cплавы на байдарках</p>
-                    <p className={styles.river} ref={textRef}></p>
+                    <p className={styles.river} ref={textRef}>"Насладитесь спокойными сплавами по живописной реке и откройте для себя красоту природы!"</p>
 
                     <div className={styles.bag}>
 

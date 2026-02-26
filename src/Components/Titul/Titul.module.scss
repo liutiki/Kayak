@@ -10,6 +10,18 @@
 .kayak {
     width: 100%; // Убедитесь, что изображение занимает всю ширину контейнера
     height: auto; // Сохраняем пропорции изображения
+
+}
+
+.imageContainer::after {
+    content: ""; /* Создаем пустой контент для псевдоэлемента */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 0; /* Начинаем с верхнего края */
+    left: 0; /* Начинаем с левого края */
+    right: 0; /* Растягиваем до правого края */
+    bottom: 0; /* Растягиваем до нижнего края */
+    background-color: rgba(0, 0, 0, 0.403); /* Черный цвет с прозрачностью 50% */
+    z-index: 1; /* Убедитесь, что слой находится над изображением */
 }
 
 .textOverlay {
@@ -17,28 +29,23 @@
     top: 30%; // Центрируем по вертикали
     left: 35%; // Центрируем по горизонтали
     transform: translate(-30%, -30%); // Сдвигаем текст на половину его ширины и высоты для центрирования
-   
+    z-index: 2; 
     text-align: center; // Центрируем текст
-  
 }
 
 .splav{
     color: white; 
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.982); // Добавляем тень для лучшей читаемости текста
-  
+    text-shadow: 1px 1px 2px rgba(68, 67, 67, 0.982); // Добавляем тень для лучшей читаемости текста
     font-size: 90px;
     font-family: "Manrope", sans-serif;
     font-weight: 800;
-   
-    margin-bottom: 14%;
-
 }
 
 .river{
     color: white; // Цвет текста, можно изменить на любой другой
-    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.982); // Добавляем тень для лучшей читаемости текста
-    font-size: 70px;
-    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
 }
 
 .bag{
@@ -46,9 +53,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: rgba(245, 245, 220, 0.573);
+    background-color: rgba(244, 244, 236, 0.484);
     border-radius: 20px;
 width: 1000px;
+margin-top: 20%;
 
 }
 
@@ -60,14 +68,14 @@ width: 1000px;
    font-family: "Manrope", sans-serif;
    font-size: 29px; 
    font-weight:300;
-   color:rgb(5, 17, 75)
+   color:rgb(47, 58, 6);
 }
 
 .textTop{
      font-family: "Manrope", sans-serif;
    font-size: 29px; 
    font-weight:500;
-   color:rgb(5, 17, 75)
+   color:rgb(21, 13, 15)
 }
 
 
@@ -85,8 +93,8 @@ width: 1000px;
 
 .river{
    
-    font-size: 20px;
-    
+    font-size: 12px;
+    width:300px;
 }
 
    
@@ -121,18 +129,19 @@ border-radius:10%;
     flex-direction: row;
 flex-wrap: wrap;
 width: 270px;
+margin-top: 1%;
 }
 
 .textBox{
 font-weight: 600;
-   font-size: 11px; 
+   font-size: 10px; 
    font-weight:600;
 }
 
 .textTop{
 
-   font-size: 12px; 
-font-weight: 200;
+   font-size: 10px; 
+font-weight: 100;
    
 }
 
