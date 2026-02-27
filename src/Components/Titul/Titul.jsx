@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
-import kayak from '@/assets/io.jpg';
+import kayak from '@/assets/o.jpg';
 import styles from './Titul.module.scss';
 import { Clock } from 'lucide-react';
 import { MapPinPlus } from 'lucide-react';

@@ -9,7 +9,7 @@ export const CostData = [
 
     {
     image: kayak,
-    name: '3800 ',
+    name: '3800 рублей',
     description: 'Однодневный сплав ',  
     service: 'Прокат трехместных байдарок',
     serviceOne: 'Прокат трехместных байдарок',
@@ -20,7 +20,7 @@ export const CostData = [
 
 {
     image:houseBanya,
-    name: 'от 5000 ',
+    name: 'от 5000 рублей ',
     description: 'Двухдневный сплав ',  
     service: 'Прокат трехместных байдарок',
     serviceOne: 'Прокат трехместных байдарок',
@@ -31,7 +31,7 @@ export const CostData = [
 
 {
     image:back,
-    name: 'от 5000 ',
+    name: 'от 5000 рублей ',
     description: 'Корпоративы ',
     serviceOne: 'Прокат трехместных байдарок',
     serviceTwo: 'Прокат трехместных байдарок',
@@ -41,12 +41,12 @@ export const CostData = [
 
 {
     image:girl,
-    name: 'от 5000 ',
+    name: 'от 5000 рублей',
     description: 'Дни рождения', 
     serviceOne: 'Прокат трехместных байдарок',
     serviceTwo: 'Прокат трехместных байдарок', 
     button: 'Подробнее',
-     path: '/birthday'
+    path: '/birthday'
 },
 
 

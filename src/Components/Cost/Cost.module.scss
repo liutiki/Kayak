@@ -1,7 +1,6 @@
 .image{
-    width:300px;
-    height:40vh;
-   
+    width:100%;
+  
 }
 
 .imageContainer{
@@ -21,7 +20,6 @@
     flex-wrap: wrap;
     border:1px solid rgba(123, 121, 121, 0.404);
     border-radius: 10px;
-
 }
 
 .service{
@@ -49,11 +47,25 @@
     margin-left:10px;
 }
 
+.title{
+      font-family: "Roboto", sans-serif;  
+      font-size:21px;
+}
+
+.description{
+     font-family: "Roboto", sans-serif;  
+     font-size:26px;
+}
+
+.serviceOne{
+      font-family: "Roboto", sans-serif;  
+}
+
 @media (max-width: 500px) {
 
 .image{
-    width:90%;
-    height:20vh;
+    width:100%;
+    align-items: center;
 }
 
 .cardPosition{
@@ -62,6 +74,8 @@
 
 .card{
     margin:5px;
+    align-items: center;
+    justify-content: center;
     }
 
 .service{
@@ -75,6 +89,14 @@
     font-size: 12px;
     margin-bottom: 7px;
     margin-left:5px;
+}
+
+.title{
+         font-size:18px;
+}
+
+.description{
+     font-size:18px;
 }
 
 }

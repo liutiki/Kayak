@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 
 export const Cost =() =>{
-    
+
  const navigate = useNavigate(); 
     
     const handleButtonClick = (item) => {
@@ -25,11 +25,12 @@ export const Cost =() =>{
                 return (
                     <article className={styles.card} key={item.id}>
                         <div className={styles.imageContainer}>
-                            <img src={image} className={styles.image} alt="vessel" />
+                            <img src={image} className={styles.image} alt="Сплавы на байдарках. Калининград" />
                         </div>
                         <div>
-                            <h3 className={styles.title}>{name}</h3>
+                          
                             <p className={styles.description}>{description}</p>
+                              <h3 className={styles.title}>{name}</h3>
                              <p className={styles.serviceOne}>{serviceOne}</p>
                               <p className={styles.serviceTwo}>{serviceTwo}</p>
                             <button className={styles.button} onClick={() => handleButtonClick(item)}>

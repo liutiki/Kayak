@@ -20,7 +20,7 @@
     left: 0; /* Начинаем с левого края */
     right: 0; /* Растягиваем до правого края */
     bottom: 0; /* Растягиваем до нижнего края */
-    background-color: rgba(0, 0, 0, 0.403); /* Черный цвет с прозрачностью 50% */
+    background-color: rgba(131, 129, 129, 0.352); /* Черный цвет с прозрачностью 50% */
     z-index: 1; /* Убедитесь, что слой находится над изображением */
 }
 
@@ -51,12 +51,11 @@
 .bag{
     display:flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: rgba(244, 244, 236, 0.484);
     border-radius: 20px;
-width: 1000px;
-margin-top: 20%;
+
+margin-top: 3%;
 
 }
 
@@ -125,28 +124,26 @@ border-radius:10%;
 }
 
 .bag{
-
-    flex-direction: row;
-flex-wrap: wrap;
-width: 270px;
 margin-top: 1%;
 }
 
+.box{
+    margin: 0; /* Убираем отступы между .box */
+    padding: 5px;
+}
 .textBox{
-font-weight: 600;
    font-size: 10px; 
    font-weight:600;
 }
 
 .textTop{
-
-   font-size: 10px; 
+font-size: 10px; 
 font-weight: 100;
    
 }
 
 .icon{
-     width: 13px; 
+    width: 13px; 
     height: 13px;
 }
 
