@@ -67,10 +67,10 @@ export const Way = () =>{
 
 <div className={styles.piccontainer} >
 
-<img src={house} className={styles.picture} alt="Сплав по реке Анграпа Калининград" /> 
-<img src={org} className={styles.picture} alt="Сплав по реке Анграпа Калининград" /> 
+<img src={house} className={styles.banya} alt="Сплав по реке Анграпа Калининград" /> 
+<img src={org} className={styles.banya} alt="Сплав по реке Анграпа Калининград" /> 
 <img src={rabbit} className={styles.banya} alt="Сплав по реке Анграпа Калининград" />   
-<img src={woman} className={styles.picture} alt="Сплав по реке Анграпа Калининград" /> 
+<img src={woman} className={styles.banya} alt="Сплав по реке Анграпа Калининград" /> 
 
 </div>
 

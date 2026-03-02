@@ -1,7 +1,7 @@
-import back from '@/assets/back.jpg';
-import girl from '@/assets/girl.jpg';
-import houseBanya from '@/assets/houseBanya.jpg';
-import kayak from '@/assets/kayak.jpg';
+import back from '@/assets/cost/kayak.jpg';
+import girl from '@/assets/cost/girl.jpg';
+import houseBanya from '@/assets/cost/Twodays.jpg';
+import kayak from '@/assets/cost/corporate.jpg';
 
 
 export const CostData = [
