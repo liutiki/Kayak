@@ -1,0 +1,53 @@
+.imgKayak{
+    width:280px;
+         margin: 10px;
+}
+
+.kayak{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgOne{
+     width:450px;
+     margin: 10px;
+}
+
+.photoText{
+    font-size: 76px;
+    color:#86C4BA;
+    font-weight:100;
+}
+
+.placeText{
+    margin-top:5%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+@media (max-width: 500px) {
+
+.imgKayak{
+    width:80px;
+    margin: 10px;
+}
+
+
+.imgOne{
+     width:150px;
+     margin: 10px;
+}
+
+.photoText{
+    font-size: 26px;
+}
+
+.placeText{
+    margin-top:2%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+}

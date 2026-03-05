@@ -1,9 +1,8 @@
 import orgphoto from '@/assets/orgphoto.jpg';
 import styles from './Coordinator.module.scss';
+import { BtnCallOrganizator } from '@/ui/BtnCallOrganizator/BtnCallOrganizator';
 
- const handleButtonClick = () => {
-        window.open('https://t.me/svetlana_k_94', '_blank'); 
-    };
+
 
 export const Coordinator =() =>{
     return (
@@ -29,9 +28,7 @@ export const Coordinator =() =>{
              насладиться красотой природы и получить заряд положительных эмоций.</p>
             <div>
 
-        <button className={styles.orgbtn} onClick={handleButtonClick}>
-        Написать организатору
-        </button>
+     <BtnCallOrganizator/>
         </div>
       </div>
      </div>

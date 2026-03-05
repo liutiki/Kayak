@@ -12,6 +12,7 @@ import { NavbarTop } from '@/Navbar/NavbarTop';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useEffect } from 'react';
+import { Photos } from '../../Components/Photos/Photos';
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -65,6 +66,7 @@ export const Home = () => {
       </div>
       <Coordinator />
       <Testimonials />
+      <Photos />
       <Footer />
 </div>
 

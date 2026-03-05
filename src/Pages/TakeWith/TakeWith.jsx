@@ -5,10 +5,15 @@ import river from '@/assets/river.jpg';
 import styles from './Takewith.module.scss';
 import boy from '@/assets/takeWith/boyPhoto.jpg';
 import { BtnOnMain } from "@/ui/BtnOnMain/BtnOnMain";
+import { useEffect } from "react";
 
 
 
 export const TakeWith =()=>{
+
+       useEffect(() => {
+            window.scrollTo(0, 0);
+        }, []);
 
 
     return (

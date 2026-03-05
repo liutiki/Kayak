@@ -4,7 +4,7 @@
 }
 
 .imageContainer{
-    width:300px;
+    width:320px;
 }
 
 .cardPosition{
@@ -68,6 +68,10 @@
     align-items: center;
 }
 
+.imageContainer{
+    width:280px;
+}
+
 .cardPosition{
     flex-direction: column;
    }
@@ -79,7 +83,8 @@
     }
 
 .service{
-    font-size: 17px;
+    font-size: 29px;
+    font-weight: 300;
     margin-top: 2%;
 }
 

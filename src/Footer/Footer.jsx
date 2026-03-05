@@ -2,17 +2,20 @@ import styles from './Footer.module.scss';
 import { PhoneCall } from 'lucide-react';
 import { PencilLine } from 'lucide-react';
 import tele from '@/assets/media/tele.png';
-import insta from '@/assets/media/insta.png';
+import max from '@/assets/media/max.png';
 import photoorg from '@/assets/photoorg.png';
 
 const handleIconClick = () => {
         window.open('https://t.me/kaliningrad_splav39', '_blank'); 
     };
 
+const handleMaxClick = () => {
+    window.open('https://max.ru/join/lOzQwBfOcdpq2q52-YAcKbWhfl89e5j8OoDN3eIxyrc', '_blank'); 
+};
 
  export const Footer = () => {
        return (
-           <footer >
+           <footer id="contacts">
 
             <>
 
@@ -40,10 +43,11 @@ const handleIconClick = () => {
                 <div className={styles.write}>
                 <PencilLine className={styles.pencil} />  
                 <p className={styles.mail}>Написать</p>
-                <a className={styles.nounderline} href="mailto:info@mlship.ru " aria-label="Написать на почту"> XXXX@XXXXXX.ru </a>              
+                <a className={styles.nounderline} href="mailto:info@mlship.ru " aria-label="Написать на почту"> sveta0959@mail.ru </a>              
                 </div>
 
                 <div>
+                    <p  className={styles.for}>Для быстрой связи</p>
                 <img src={tele}
                  className={styles.tele}
                  alt="Telegram" 
@@ -51,7 +55,9 @@ const handleIconClick = () => {
                  style={{ cursor: 'pointer' }}
                 />
 
-                <img src={insta} width="80px"/>
+               <img src={max}  className={styles.max} alt="Max"
+                                   onClick={handleMaxClick} 
+                                   style={{ cursor: 'pointer' }}/>
                 
                 </div>
 

@@ -7,17 +7,18 @@ import { useNavigate } from "react-router-dom";
 
 export const Cost =() =>{
 
- const navigate = useNavigate(); 
+     const navigate = useNavigate(); 
     
     const handleButtonClick = (item) => {
         navigate(item.path); 
     };
 
+
     return (
 
         <>
-        <div className={styles.service}>
-            <p>Услуги и цены</p>
+        <div className={styles.service} id="pricing">
+            <p >Услуги и цены</p>
         </div>
             <div className={styles.cardPosition}>
             {CostData.map(item => {

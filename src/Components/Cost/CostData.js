@@ -1,7 +1,7 @@
-import back from '@/assets/cost/kayak.jpg';
-import girl from '@/assets/cost/girl.jpg';
-import houseBanya from '@/assets/cost/Twodays.jpg';
-import kayak from '@/assets/cost/corporate.jpg';
+import check from '@/assets/cost/check.jpg';
+import birthday from '@/assets/cost/birthday.jpg';
+import kayakFour from '@/assets/cost/kayakFour.jpg';
+import kayak from '@/assets/cost/kayak.jpg';
 
 
 export const CostData = [
@@ -11,26 +11,26 @@ export const CostData = [
     image: kayak,
     name: '3800 рублей',
     description: 'Однодневный сплав ',  
-    service: 'Прокат трехместных байдарок',
-    serviceOne: 'Прокат трехместных байдарок',
-    serviceTwo: 'Прокат трехместных байдарок',
+    service: 'Аренда байдарок',
+    serviceOne: 'Обед + Ужин на костре',
+    serviceTwo: 'Баня',
     button: 'Подробнее',
      path: '/two-days'
 },
 
 {
-    image:houseBanya,
+    image:kayakFour,
     name: 'от 5000 рублей ',
     description: 'Двухдневный сплав ',  
-    service: 'Прокат трехместных байдарок',
-    serviceOne: 'Прокат трехместных байдарок',
-    serviceTwo: 'Прокат трехместных байдарок',
+    service: 'Аренда байдарок',
+    serviceOne: 'Обед + Ужин на костре',
+    serviceTwo: 'Номер в гостинице "Ангел"',
     button: 'Подробнее',
      path: '/two-days'
 },
 
 {
-    image:back,
+    image:check,
     name: 'от 5000 рублей ',
     description: 'Корпоративы ',
     serviceOne: 'Прокат трехместных байдарок',
@@ -40,7 +40,7 @@ export const CostData = [
 },
 
 {
-    image:girl,
+    image:birthday,
     name: 'от 5000 рублей',
     description: 'Дни рождения', 
     serviceOne: 'Прокат трехместных байдарок',

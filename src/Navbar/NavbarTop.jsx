@@ -4,8 +4,18 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logPhone from '@/assets/logPhone.png';
 import styles from './Navbar.module.scss';
+import { useCallback } from 'react';
 
 export const NavbarTop = () =>{
+
+     const scrollToSection = useCallback((id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, []);
+
+
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
@@ -15,9 +25,9 @@ export const NavbarTop = () =>{
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Маршруты</Nav.Link>
+            <Nav.Link href="#features">Маршрут</Nav.Link>
             <Nav.Link href="#pricing">Цены</Nav.Link>
-             <Nav.Link href="#pricing">Фотоотчет</Nav.Link>
+             <Nav.Link href="#photo">Фотоотчет</Nav.Link>
             <NavDropdown title="Компаниям" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Корпоративные туры</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -26,8 +36,8 @@ export const NavbarTop = () =>{
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Контакты</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link href="#contacts">Контакты</Nav.Link>
+            <Nav.Link eventKey={2} href="#testimonials">
              Отзывы
             </Nav.Link>
           </Nav>

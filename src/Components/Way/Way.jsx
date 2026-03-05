@@ -32,7 +32,8 @@ export const Way = () =>{
    <p className={styles.textStyle}>
     <SquareCheckBig className={styles.check}/>Инструктаж, подбор спасательных жилетов, распределение 
                                               по Байдаркам (есть двухместные и трехместные байдарки, сапборды);</p>
-
+   <p className={styles.textStyle}>
+    <SquareCheckBig className={styles.check}/>Спокойный сплав по живописной реке</p>
   </div>                                 
 
 <div className={styles.piccontainer} >

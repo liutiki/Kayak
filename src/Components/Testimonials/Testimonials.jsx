@@ -6,7 +6,7 @@ export const Testimonials =() =>{
 
        return (
        <>
-       <div className={styles.bag}>
+       <div className={styles.bag} id="testimonials">
          <p className={styles.answer}>Отзывы</p>
        </div>
 
