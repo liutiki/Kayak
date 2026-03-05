@@ -22,7 +22,7 @@ useEffect(() => {
                        <Contacts />
                        <BtnOnMain />
 
-       <div className={styles.position}>
+          <div className={styles.position}>
            <img src={photoBirth} className={styles.photoBirth} alt="Сплавы в Калининграде"/>
           <div className={styles.container}>
            <h1 className={styles.text}>Корпоративы для компаний</h1>
