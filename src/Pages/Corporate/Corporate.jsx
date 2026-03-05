@@ -3,9 +3,10 @@ import { ContactsMobile } from "@/Components/ContactsMobile/ContactsMobile"
 import { Footer } from "@/Footer/Footer"
 import { BtnOnMain } from "@/ui/BtnOnMain/BtnOnMain"
 import { BtnCallOrganizator } from "@/ui/BtnCallOrganizator/BtnCallOrganizator"
-import photoBirth from '@/assets/birthday/birthday.jpg';
+import photoBirth from '@/assets/corporate/comp.png';
 import { useEffect } from "react";
 import styles from './Corporate.module.scss';
+import { Cost } from "../../Components/Cost/Cost"
 
 
 
@@ -41,6 +42,8 @@ useEffect(() => {
 
                     
     </div>
+
+     <Cost />
    <Footer />
 
         </div>

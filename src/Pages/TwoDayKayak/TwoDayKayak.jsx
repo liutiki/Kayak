@@ -3,9 +3,10 @@ import { ContactsMobile } from "@/Components/ContactsMobile/ContactsMobile"
 import { Footer } from "@/Footer/Footer"
 import { BtnOnMain } from "@/ui/BtnOnMain/BtnOnMain"
 import { BtnCallOrganizator } from "../../ui/BtnCallOrganizator/BtnCallOrganizator"
-import photoBirth from '@/assets/birthday/birthday.jpg';
+import photoBirth from '@/assets/Twoday/twoDay.png';
 import styles from './TwoDayKayak.module.scss';
 import { useEffect } from "react"
+import { Cost } from "../../Components/Cost/Cost"
 
 export const TwoDayKayak =()=>{
 
@@ -37,9 +38,9 @@ export const TwoDayKayak =()=>{
 
                     
     </div>
-
+                      <Cost />
                        <Footer />
-            <p>TestTwo</p>
+          
         </div>
     )
 }

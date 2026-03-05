@@ -6,6 +6,7 @@ import photoBirth from '@/assets/birthday/birthday.jpg';
 import styles from './Birthday.module.scss';
 import { useEffect } from "react";
 import { BtnCallOrganizator } from "@/ui/BtnCallOrganizator/BtnCallOrganizator";
+import { Cost } from "../../Components/Cost/Cost";
 
 export const Birthday =()=>{
 
@@ -36,8 +37,11 @@ export const Birthday =()=>{
              <BtnCallOrganizator />
 
           </div>
+    
        
            </div>
+      <Cost />
+
        <Footer />
         </div>
     )
