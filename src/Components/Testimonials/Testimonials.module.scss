@@ -2,8 +2,12 @@
     overflow: hidden;
     white-space: nowrap;
     box-sizing: border-box;
-  background-color: rgba(244, 194, 244, 0.451);
-}
+    background-color: rgba(244, 194, 244, 0.451);
+    animation: marquee 70s linear;
+
+   &.paused {
+        animation-play-state: paused;
+}}
 
 .marqueeContent {
     display: inline-block;
