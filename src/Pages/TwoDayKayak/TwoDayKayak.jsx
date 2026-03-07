@@ -3,7 +3,7 @@ import { ContactsMobile } from "@/Components/ContactsMobile/ContactsMobile"
 import { Footer } from "@/Footer/Footer"
 import { BtnOnMain } from "@/ui/BtnOnMain/BtnOnMain"
 import { BtnCallOrganizator } from "@/ui/BtnCallOrganizator/BtnCallOrganizator"
-import photoTwoDay from '@/assets/Twoday/twoDay.png';
+import photoTwoDay from '@/assets/TwoDay/twoDay.jpg';
 import styles from './TwoDayKayak.module.scss';
 import { useEffect } from "react"
 import { Cost } from "@/Components/Cost/Cost"
