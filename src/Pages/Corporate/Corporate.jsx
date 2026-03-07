@@ -1,12 +1,12 @@
-import { Contacts } from "@/Components/Contacts/Contacts"
-import { ContactsMobile } from "@/Components/ContactsMobile/ContactsMobile"
-import { Footer } from "@/Footer/Footer"
-import { BtnOnMain } from "@/ui/BtnOnMain/BtnOnMain"
-import { BtnCallOrganizator } from "@/ui/BtnCallOrganizator/BtnCallOrganizator"
+import { Contacts } from "@/Components/Contacts/Contacts";
+import { ContactsMobile } from "@/Components/ContactsMobile/ContactsMobile";
+import { Footer } from "@/Footer/Footer";
+import { BtnOnMain } from "@/ui/BtnOnMain/BtnOnMain";
+import { BtnCallOrganizator } from "@/ui/BtnCallOrganizator/BtnCallOrganizator";
 import photoBirth from '@/assets/corporate/comp.png';
 import { useEffect } from "react";
 import styles from './Corporate.module.scss';
-import { Cost } from "../../Components/Cost/Cost"
+import { Cost } from "@/Components/Cost/Cost"
 
 
 

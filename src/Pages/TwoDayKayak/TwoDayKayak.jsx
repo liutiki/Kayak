@@ -2,11 +2,11 @@ import { Contacts } from "@/Components/Contacts/Contacts"
 import { ContactsMobile } from "@/Components/ContactsMobile/ContactsMobile"
 import { Footer } from "@/Footer/Footer"
 import { BtnOnMain } from "@/ui/BtnOnMain/BtnOnMain"
-import { BtnCallOrganizator } from "../../ui/BtnCallOrganizator/BtnCallOrganizator"
-import photoBirth from '@/assets/Twoday/twoDay.png';
+import { BtnCallOrganizator } from "@/ui/BtnCallOrganizator/BtnCallOrganizator"
+import photoTwoDay from '@/assets/Twoday/twoDay.png';
 import styles from './TwoDayKayak.module.scss';
 import { useEffect } from "react"
-import { Cost } from "../../Components/Cost/Cost"
+import { Cost } from "@/Components/Cost/Cost"
 
 export const TwoDayKayak =()=>{
 
@@ -21,7 +21,7 @@ export const TwoDayKayak =()=>{
                        <BtnOnMain />
           <div className={styles.position}>
             <p>
-            <img src={photoBirth} className={styles.photoBirth} alt="Сплавы в Калининграде"/>       
+            <img src={photoTwoDay} className={styles.photoBirth} alt="Сплавы в Калининграде"/>       
             </p>
            
           
