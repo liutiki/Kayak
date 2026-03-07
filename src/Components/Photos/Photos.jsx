@@ -3,7 +3,7 @@ import photoTwo from '@/assets/photos/PhotoTwo.jpg';
 import photoThree from '@/assets/photos/Soup.jpg';
 import photoFour from '@/assets/photos/Sveta.jpg';
 import photoFive from '@/assets/photos/Twodays.jpg';
-import photoSix from '@/assets/photos/photoSix.jpg';
+
 import photoSeven from '@/assets/photos/photoSeven.jpg';
 import photoNine from '@/assets/photos/vesla.jpg';
 
@@ -24,7 +24,7 @@ export const Photos =()=>{
                 <img src={photoFour} className={styles.imgKayak} alt="Сплав на байдарках"/>
                    <img src={photoThree} className={styles.imgKayak} alt="Сплав на байдарках"/>
                       <img src={photoFive} className={styles.imgKayak} alt="Сплав на байдарках"/>
-                       <img src={photoSix} className={styles.imgOne} alt="Сплав на байдарках"/>
+                      
                           <img src={photoSeven} className={styles.imgOne} alt="Сплав на байдарках"/>
                                  <img src={photoNine} className={styles.imgOne} alt="Сплав на байдарках"/>
         </div>
