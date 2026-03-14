@@ -2,16 +2,19 @@
     overflow: hidden;
     white-space: nowrap;
     box-sizing: border-box;
-    background-color: rgba(244, 194, 244, 0.451);
-    animation: marquee 70s linear;
+    background-color: rgba(247, 204, 247, 0.451);
+     position: relative;
 
-   &.paused {
-        animation-play-state: paused;
-}}
+}
 
 .marqueeContent {
     display: inline-block;
-    animation: marquee 110s linear infinite; /* Длительность и тип анимации */
+    animation: marquee 80s linear infinite; // Уменьшено время анимации для более быстрой прокрутки
+    animation-play-state: running;
+}
+
+.paused .marqueeContent {
+    animation-play-state: paused; // Остановка анимации при наведении
 }
 
 .review {
@@ -34,8 +37,9 @@
 .answer{
         font-family: "Manrope", sans-serif;
         font-size: 65px;
-        color:rgb(235, 87, 117);
+        color:rgb(238, 185, 196);
         font-weight: 200;
+      
 }
 
 @keyframes marquee {

@@ -29,32 +29,28 @@ export const Testimonials =() =>{
          <p className={styles.answer}>Отзывы</p>
        </div>
  <div 
-                className={`${styles.marquee} ${isPaused ? styles.paused : ''}`}
+              className={`${styles.marquee} ${isPaused ? styles.paused : ''}`}
+               
                 onMouseEnter={handleMouseEnter} 
                 onMouseLeave={handleMouseLeave} 
                 onTouchStart={handleTouchStart} 
                 onTouchEnd={handleTouchEnd}
             >
 
-       <div className={styles.marquee}>
+      
            
             <div className={styles.marqueeContent}>
-                {testdata.map(review => (
+                {[...testdata, ...testdata].map(review => (
                     <div className={styles.review} key={review.id}>
                        <img src={review.image} alt="Отзыв"  />
                         <span>{review.text}</span>
                     </div>
                 ))}
 
-                 {testdata.map(review => (
-                        <div className={styles.review} key={review.id + testdata.length}>
-                            <img src={review.image} alt="Отзыв" />
-                            <span>{review.text}</span>
-                        </div>
-                    ))}
+                 
             </div>
         </div>
-        </div>
+       
        </>
        
     )
