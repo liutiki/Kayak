@@ -5,8 +5,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import logPhone from '@/assets/logPhone.png';
 import styles from './Navbar.module.scss';
 import { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const NavbarTop = () =>{
+
+     const navigate = useNavigate();
 
      const scrollToSection = useCallback((id) => {
     const section = document.getElementById(id);
@@ -29,8 +32,8 @@ export const NavbarTop = () =>{
             <Nav.Link href="#pricing">Цены</Nav.Link>
              <Nav.Link href="#photo">Фотоотчет</Nav.Link>
             <NavDropdown title="Компаниям" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Корпоративные туры</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item onClick={() => navigate('/corporate')}>Корпоративные туры</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => navigate('/birthday')}>
                 Индивидуальные туры
               </NavDropdown.Item>                         
             </NavDropdown>
